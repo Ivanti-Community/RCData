@@ -1,5 +1,12 @@
 # RCData
-In the Screenshots folder there are three zip files: Win7.zip, Win81.zip, Win10.zip.  One file for the each OS we gathered information from. The zip files contain a collection of screenshots in bmp format collected every 5 seconds along with a corresponding json file describing the top-level windows at the time of each screenshot.
+You can download three zip files containing screenshot: 
+
+https://s3.amazonaws.com/rc-ml-sampledata/Win10.zip
+https://s3.amazonaws.com/rc-ml-sampledata/Win7.zip
+https://s3.amazonaws.com/rc-ml-sampledata/Win8.1.zip
+ 
+
+There is one file for the each OS we gathered information from. The zip files contain a collection of screenshots in bmp format collected every 5 seconds along with a corresponding json file describing the top-level windows at the time of each screenshot.  The BMP file and the corresponding JSON file have identical filenames except for the file extension.  You can use the filename as an indication of the time when the snapshot was taken.
 
 The format of a bitmap can be found here - https://en.wikipedia.org/wiki/BMP_file_format.
 
